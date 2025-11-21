@@ -22,37 +22,46 @@ A Bug Tracker application built with the MERN stack (MongoDB, Express, React, No
 
 Clone the repository:
 
+---sh
 git clone 
+---
 
 Install backend dependencies:
 
+---sh
 cd server
 npm install
-
+---
 
 Install frontend dependencies:
 
+---sh
 cd ../client
 npm install
-
+---
 
 Create a .env file in the server folder with:
 
+---sh
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+---
 
 Running the Project
+
 Backend
+---sh
 cd server
 npm run dev
+---
 
-
-Server will run at http://localhost:5000.
+Server will run at http://localhost:5000 (or on render)
 
 Frontend
+---sh
 cd client
 npm run dev
-
+---
 
 Frontend will run at http://localhost:5173 (or Vite default port).
 
@@ -61,63 +70,63 @@ Frontend will run at http://localhost:5173 (or Vite default port).
 Backend Testing (Node + Jest + Supertest)
 
 Run tests:
-
+---sh
 cd server
 npm test
-
+---
 
 Tests cover:
 
-CRUD operations on bugs
+- CRUD operations on bugs
 
-API endpoints validation
+- API endpoints validation
 
-Database connection and error handling
+- Database connection and error handling
 
-Frontend Testing (React Testing Library + Jest)
+- Frontend Testing (React Testing Library + Jest)
 
 Run tests:
-
+---sh
 cd client
 npm test
-
+---
 
 Tests cover:
 
-Component rendering
+- Component rendering
 
-User interactions
+- User interactions
 
-API integration mocks
+- API integration mocks
 
 ## Debugging Techniques Used
 
-   Console logging for tracing errors
+   - Console logging for tracing errors
 
-   Debugger statements in Node.js
+   - Debugger statements in Node.js
 
-   React Developer Tools for frontend inspection
+   - React Developer Tools for frontend inspection
 
-   Network monitoring for API requests
+   - Network monitoring for API requests
 
-   Error boundary components in React for catching runtime errors
+   - Error boundary components in React for catching runtime errors
 
 ## Testing Approach & Coverage
 
-Unit Tests: Validate small pieces of logic individually (backend functions, React components).
+- Unit Tests: Validate small pieces of logic individually (backend functions, React components).
 
-Integration Tests: Test API routes and database interactions together.
+- Integration Tests: Test API routes and database interactions together.
 
-Component Tests: Ensure React components render correctly and respond to user actions.
+- Component Tests: Ensure React components render correctly and respond to user actions.
 
-Coverage: Core backend endpoints and frontend components tested to ensure correct behavior, error handling, and edge case management.
+- Coverage: Core backend endpoints and frontend components tested to ensure correct behavior, error handling, and edge case management.
 
 ## Technologies
 
-Backend: Node.js, Express, MongoDB, Mongoose
+- Backend: Node.js, Express, MongoDB, Mongoose
 
-Frontend: React, React Router, React Testing Library, CSS
+- Frontend: React, React Router, React Testing Library, CSS
 
-Testing: Jest, Supertest, React Testing Library
+- Testing: Jest, Supertest, React Testing Library
 
-Tools: VS Code, Postman, Git, GitHub, Nodemon
+- Tools: VS Code, Postman, Git, GitHub, Nodemon
