@@ -22,10 +22,10 @@ A Bug Tracker application built with the MERN stack (MongoDB, Express, React, No
 
 ### Clone the repository:
 
----
+```
 git clone 
 
----
+```
 
 Install backend dependencies:
 
