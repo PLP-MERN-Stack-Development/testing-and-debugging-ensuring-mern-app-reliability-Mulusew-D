@@ -20,7 +20,7 @@ A Bug Tracker application built with the MERN stack (MongoDB, Express, React, No
 
 ## Installation
 
-Clone the repository:
+### Clone the repository:
 
 ---
 git clone 
