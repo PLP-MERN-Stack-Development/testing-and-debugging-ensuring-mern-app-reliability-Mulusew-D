@@ -27,64 +27,65 @@ git clone
 
 ```
 
-Install backend dependencies:
+### Install backend dependencies:
 
----
+```
 cd server
+
 npm install
 
----
+```
 
-Install frontend dependencies:
-
----
+### Install frontend dependencies:
+```
 cd ../client
+
 npm install
 
----
+```
 
-Create a .env file in the server folder with:
-
----
+#### Create a .env file in the server folder with:
+```
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
----
+```
 
-Running the Project
+### Running the Project
 
-Backend
-
----
+#### Backend
+```
 cd server
+
 npm run dev
 
----
+```
 
 Server will run at http://localhost:5000 (or on render)
 
-Frontend
+#### Frontend
 
----
+```
 cd client
+
 npm run dev
 
----
+```
 
 Frontend will run at http://localhost:5173 (or Vite default port).
 
 ## Testing
 
-Backend Testing (Node + Jest + Supertest)
+### Backend Testing (Node + Jest + Supertest)
 
-Run tests:
+#### Run tests:
 
----
+```
 cd server
 npm test
+```
 
----
-
-Tests cover:
+### Tests cover:
 
 - CRUD operations on bugs
 
@@ -94,15 +95,14 @@ Tests cover:
 
 - Frontend Testing (React Testing Library + Jest)
 
-Run tests:
+#### Run tests:
 
----
+```
 cd client
 npm test
+```
 
----
-
-Tests cover:
+#### Tests cover:
 
 - Component rendering
 
